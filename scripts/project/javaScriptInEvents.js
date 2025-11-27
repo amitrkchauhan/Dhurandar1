@@ -25,6 +25,7 @@ const scriptsInEvents = {
 		iframe.style.width = "100%";
 		iframe.style.height = "100%";
 		iframe.style.zIndex = "9999";
+		iframe.style.border = "none";
 		document.body.appendChild(iframe);
 		
 		window.addEventListener("message", onMessageFromIframe, false);
